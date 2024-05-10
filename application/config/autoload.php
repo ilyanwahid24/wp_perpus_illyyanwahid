@@ -60,6 +60,7 @@ $autoload['packages'] = array();
 */
 $autoload['libraries'] = array('form_validation', 'session', 'database');
 
+// Load library yang diperlukan
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
@@ -90,6 +91,7 @@ $autoload['drivers'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 $autoload['helper'] = array('url');
+// Load helper url
 
 /*
 | -------------------------------------------------------------------

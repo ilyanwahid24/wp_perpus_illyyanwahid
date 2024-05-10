@@ -6,6 +6,7 @@
 
         public function getBuku(){
             return $this->db->get('buku');
+            // Deklarasi function getBuku untuk mengambil data dari table buku
         }
 
         public function bukuWhere($where){
